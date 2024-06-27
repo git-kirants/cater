@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "31489331529",
+    "project_id": "cynus-catering",
+    "storage_bucket": "cynus-catering.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31489331529:android:90d09f7d7d4e3cf93aca98",
+        "android_client_info": {
+          "package_name": "com.cygnus.catering"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXbodP1h_PI2E4oTHDTJ4ZrGqvIYy26yc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
