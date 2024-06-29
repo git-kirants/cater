@@ -29,7 +29,7 @@ class DefaultFirebaseOptions {
         return ios;
       case TargetPlatform.macOS:
         throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
+          'DefaultFirebaseOptions have not been configured for macOS - '
           'you can reconfigure this by running the FlutterFire CLI again.',
         );
       case TargetPlatform.windows:
@@ -50,19 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyC9ymvOA1UNAafDU3tUiVy8Gn9eea0-fUs',
-    appId: '1:67672590699:android:be915f2ed87322e734642e',
-    messagingSenderId: '67672590699',
-    projectId: 'cateringservicemgmt',
-    storageBucket: 'cateringservicemgmt.appspot.com',
+    apiKey: 'AIzaSyDXbodP1h_PI2E4oTHDTJ4ZrGqvIYy26yc',
+    appId: '1:31489331529:android:90d09f7d7d4e3cf93aca98',
+    messagingSenderId: '31489331529',
+    projectId: 'cynus-catering',
+    storageBucket: 'cynus-catering.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDbm38WYnl_WgFsGnXGdJxwc_Vejacq-F4',
-    appId: '1:67672590699:ios:b2b5ab8f597d967a34642e',
-    messagingSenderId: '67672590699',
-    projectId: 'cateringservicemgmt',
-    storageBucket: 'cateringservicemgmt.appspot.com',
-    iosBundleId: 'com.example.cateringServiceApp',
+    apiKey: 'YOUR_IOS_API_KEY',
+    appId: 'YOUR_IOS_APP_ID',
+    messagingSenderId: 'YOUR_IOS_SENDER_ID',
+    projectId: 'YOUR_IOS_PROJECT_ID',
+    storageBucket: 'YOUR_IOS_STORAGE_BUCKET',
+    iosBundleId: 'com.cygnus.catering',
   );
 }
